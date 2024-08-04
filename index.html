@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta
-		name="description"
-		content="Nina Carducci | Portfolio professionnel"
-  	/>
+	<meta name="description" content="Portfolio de Nina Carducci, photographe professionnelle à Bordeaux." />
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" href="./assets/style.css">
-	<meta charset="UTF-8">
 	<title>Nina Carducci</title>
 </head>
 <body>
@@ -34,13 +31,13 @@
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" class="d-block w-100" alt="..." sizes="768px">
+				<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp" loading="lazy" class="d-block w-100" alt="..." sizes="768px">
 			</div>
 			<div class="carousel-item">
-				<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" class="d-block w-100" alt="..." sizes="768px">
+				<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp" loading="lazy" class="d-block w-100" alt="..." sizes="768px">
 			</div>
 			<div class="carousel-item">
-				<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" class="d-block w-100" alt="..." sizes="768px">
+				<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp" loading="lazy" class="d-block w-100" alt="..." sizes="768px">
 			</div>
 		</div>
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -55,7 +52,7 @@
 </div>
 <div id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina.webp" alt="Photo de Nina">
+		<img src="./assets/images/nina.webp" loading="lazy" alt="Photo de Nina">
 	</div>
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
@@ -67,7 +64,7 @@
 <div id="gallery">
 	<h2 class="title">Portfolio</h2>
 	<div class="container py-3">
-		<div class="gallery" style="display: none">
+		<div class="gallery">
 			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp" alt="Scène de concert"/>
 			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp" alt="Homme en costume cravatte"/>
 			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp" alt="Femme riant dans une salle de réunion"/>
@@ -82,7 +79,7 @@
 	<div class="quote">
 		<figure>
 			<blockquote>
-				<h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h1>
+				<p class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</p>
 			</blockquote>
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
@@ -93,32 +90,32 @@
 	<div class="container">
 		<div class="service">
 			<div class="service__description">
-				<h2>Shooting photo</h2>
+				<h3>Shooting photo</h2>
 				<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
 			</div>
 			<div class="service__price">
-				<h2>350€/demi journée</h2>
+				<h3>350€/demi journée</h2>
 				<span>Matériel, déplacement inclus</span>
 			</div>
 
 		</div>
 		<div class="service">
 			<div class="service__description">
-				<h2>Retouches</h2>
+				<h3>Retouches</h3>
 				<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
 			</div>
 			<div class="service__price">
-				<h2>50€/photo</h2>
+				<h3>50€/photo</h3>
 				<span>2 AR par photo</span>
 			</div>
 		</div>
 		<div class="service">
 			<div class="service__description">
-				<h2>Album photos</h2>
+				<h3>Album photos</h3>
 				<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
 			</div>
 			<div class="service__price">
-				<h2>400€ album A4</h2>
+				<h3>400€ album A4</h3>
 				<span>30 pages recto/verso</span>
 			</div>
 		</div>
@@ -127,7 +124,7 @@
 <div class="quote">
 	<figure>
 		<blockquote>
-			<h1 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h1>
+			<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</p>
 		</blockquote>
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
