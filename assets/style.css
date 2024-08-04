@@ -123,6 +123,7 @@ body {
 	position: absolute;
 	width: 418px;
 	height: 418px;
+	size: 50px;
 	object-fit: cover;
 	padding: .5em;
 }
